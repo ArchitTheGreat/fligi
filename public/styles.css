@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 100vh;
+    font-family: 'Courier New', monospace;
+    color: #fff;
+  }
+  
+  .flip-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  
+  .digit {
+    width: 4rem;
+    height: 6rem;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .separator {
+    font-size: 4rem;
+    margin: 0 1rem;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .clock {
+      font-size: 3rem;
+    }
+    .digit {
+      width: 3rem;
+      height: 4.5rem;
+    }
+    .separator {
+      font-size: 3rem;
+      margin: 0 0.5rem;
+    }
+  }
+  
