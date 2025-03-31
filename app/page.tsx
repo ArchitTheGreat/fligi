@@ -19,7 +19,7 @@ export default function Web() {
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
               An open source flip clock made in HTML based on Fliqlo avaliable in web and more platforms to come... :)
             </p>
-            <Button href="/index.html" className="mr-3">
+            <Button href="/fligi.html" className="mr-3">
               Go to Fligi
             </Button>
             <Button
