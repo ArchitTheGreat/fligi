@@ -22,6 +22,9 @@ export default function Web() {
             <Button href="/fligi.html" className="mr-3">
               Go to Fligi
             </Button>
+            <Button href="download" className="mr-3">
+              Download 
+            </Button>
           </div>
         </div>
       </section>
@@ -54,7 +57,7 @@ export default function Web() {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Coming Soon... :)</a>
+                    <a href="download" className="hover:underline">Download</a>
                 </li>
                 
             </ul>
